@@ -4,7 +4,7 @@
   "description": "My centralized ESLint configuration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,16 @@
   "bugs": {
     "url": "https://github.com/alex-bu-89/eslint-config-alex/issues"
   },
-  "homepage": "https://github.com/alex-bu-89/eslint-config-alex#readme"
+  "homepage": "https://github.com/alex-bu-89/eslint-config-alex#readme",
+  "devDependencies": {
+    "eslint": "^5.2.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.6",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-mocha": "^5.1.0",
+    "eslint-plugin-react": "^7.10.0"
+  }
 }

@@ -15,6 +15,9 @@ module.exports = {
     'func-names': 'off',
     'class-methods-use-this': 'off',
 
+    // warn
+    // ...
+
     // errors
     'no-alert': 'error',
     'no-console': ['error', { allow: ['warn', 'error'] }],

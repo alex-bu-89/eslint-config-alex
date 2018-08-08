@@ -19,7 +19,7 @@
     "url": "https://github.com/alex-bu-89/eslint-config-alex/issues"
   },
   "homepage": "https://github.com/alex-bu-89/eslint-config-alex#readme",
-  "peerDependencies": {
+  "dependencies": {
     "eslint": "^4.19.1",
     "babel-eslint": "^8.2.6",
     "eslint-config-airbnb": "^17.0.0",
@@ -28,5 +28,11 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-mocha": "^5.1.0",
     "eslint-plugin-react": "^7.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.19.1"
   }
 }

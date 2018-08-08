@@ -4,7 +4,8 @@
   "description": "My centralized ESLint configuration",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint ."
+    "eslint": "eslint .",
+    "prettier": "prettier --write --config .prettierrc.js 'rules/**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,10 @@
   },
   "homepage": "https://github.com/alex-bu-89/eslint-config-alex#readme",
   "dependencies": {
-    "eslint": "^4.19.1",
     "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jest": "^21.18.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
@@ -30,7 +32,8 @@
     "eslint-plugin-react": "^7.10.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^4.19.1",
+    "prettier": "^1.14.0"
   },
   "peerDependencies": {
     "eslint": "^4.19.1"

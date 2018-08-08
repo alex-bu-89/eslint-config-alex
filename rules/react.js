@@ -66,7 +66,7 @@ const restrictedGlobals = [
 
 module.exports = {
   parser: 'babel-eslint',
-  plugins: ['react'],
+  plugins: ['react', 'jest'],
   env: {
     browser: true,
   },
@@ -112,5 +112,10 @@ module.exports = {
         aspects: ['noHref'],
       },
     ],
+    'jest/no-disabled-tests': 'error',
+    'jest/no-focused-tests': 'error',
+    'jest/no-identical-title': 'error',
+    'jest/prefer-to-have-length': 'error',
+    'jest/valid-expect': 'error',
   },
 };

@@ -72,51 +72,17 @@ module.exports = {
     'jest/globals': true,
   },
   rules: {
+    // --------------------
+    // overwrite rules hier
+    // --------------------
+
     // turned off rules
-    'react/jsx-filename-extension': 'off',
-    'react/forbid-prop-types': 'off',
-    'react/no-multi-comp': 'off',
-    'react/require-default-props': 'off',
-    'react/no-danger': 'off',
-    'jsx-a11y/no-static-element-interactions': 'off',
-    'jsx-a11y/no-noninteractive-element-interactions': 'off',
-    'jsx-a11y/href-no-hash': 'off',
-    'jsx-a11y/click-events-have-key-events': 'off',
+    // ..
 
     // warnings
     // ...
 
-    // errors
+    // errors,
     'no-restricted-globals': ['error'].concat(restrictedGlobals),
-    'react/jsx-boolean-value': 'error',
-    'react/jsx-no-undef': 'error',
-    'react/jsx-uses-react': 'error',
-    'react/jsx-uses-vars': 'error',
-    'react/no-did-mount-set-state': 'error',
-    'react/no-did-update-set-state': 'error',
-    'react/no-unknown-property': 'error',
-    'react/prop-types': 'error',
-    'react/react-in-jsx-scope': 'error',
-    'react/self-closing-comp': 'error',
-    'react/jsx-wrap-multilines': 'error',
-    'react/no-unescaped-entities': ['error', { forbid: ['>', '}'] }],
-    'react/jsx-no-bind': ['error', { allowArrowFunctions: true }],
-    'jsx-a11y/label-has-for': [
-      'error',
-      { required: { some: ['nesting', 'id'] } },
-    ],
-    'jsx-a11y/anchor-is-valid': [
-      'error',
-      {
-        components: ['Link'],
-        specialLink: ['to'],
-        aspects: ['noHref'],
-      },
-    ],
-    'jest/no-disabled-tests': 'error',
-    'jest/no-focused-tests': 'error',
-    'jest/no-identical-title': 'error',
-    'jest/prefer-to-have-length': 'error',
-    'jest/valid-expect': 'error',
   },
 };

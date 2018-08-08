@@ -8,7 +8,7 @@ module.exports = {
   },
   rules: {
     // --------------------
-    // overwrite rules hier
+    // overwrite rules here
     // --------------------
 
     // turned off rules

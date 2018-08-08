@@ -69,6 +69,7 @@ module.exports = {
   plugins: ['react', 'jest'],
   env: {
     browser: true,
+    'jest/globals': true,
   },
   rules: {
     // turned off rules

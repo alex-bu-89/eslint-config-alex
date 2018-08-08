@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/alex-bu-89/eslint-config-alex#readme",
   "devDependencies": {
-    "eslint": "^5.3.0"
+    "eslint": "^4.19.1"
   },
   "dependencies": {
     "babel-eslint": "^8.2.6",

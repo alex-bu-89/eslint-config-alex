@@ -13,6 +13,7 @@ module.exports = {
 
     // turned off rules
     'class-methods-use-this': 'off',
+    'no-underscore-dangle': 'off',
 
     // warnings
     // ...

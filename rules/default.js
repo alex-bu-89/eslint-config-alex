@@ -7,7 +7,7 @@ module.exports = {
     mocha: true,
   },
   rules: {
-    // off
+    // turned off rules
     'no-shadow': 'off',
     'no-param-reassign': 'off',
     'no-underscore-dangle': 'off',
@@ -15,7 +15,7 @@ module.exports = {
     'func-names': 'off',
     'class-methods-use-this': 'off',
 
-    // warn
+    // warnings
     // ...
 
     // errors

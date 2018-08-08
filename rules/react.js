@@ -84,5 +84,6 @@ module.exports = {
 
     // errors,
     'no-restricted-globals': ['error'].concat(restrictedGlobals),
+    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
   },
 };

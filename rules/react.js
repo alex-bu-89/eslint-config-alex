@@ -72,10 +72,6 @@ module.exports = {
     'jest/globals': true,
   },
   rules: {
-    // --------------------
-    // overwrite rules here
-    // --------------------
-
     // turned off rules
     // ..
 
